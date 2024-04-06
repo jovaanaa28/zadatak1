@@ -7,6 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    
+<div class="container">
+    <div  id="prvi" name="prvi">
+        <label for="ocena">Ocena:</label>
+        <input type="number" name="ocena" id="ocena"> <br><br>
+
+        <label for="indeks">Broj indeksa:</label>
+        <input type="text" name="indeks" id="indeks"><br><br>
+
+        <label for="izlazak">Redni broj izlaska na ispit:</label>
+        <select name="izlazak" id="izlazak">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    </div>
+
+    <div id="drugi" name="drugi">
+        <label for="datum">Datum izlaska na ispit:</label>
+        <input type="date" name="datum" id="datum"> <br><br>
+
+        <label for="rok">Rok:</label>
+        <input type="radio" name="rok" id="rok" value="Januar"> Januar
+        <input type="radio" name="rok" id="rok" value="April"> April
+        <input type="radio" name="rok" id="rok" value="Jun"> Jun
+        <input type="radio" name="rok" id="rok" value="Septembar"> Septembar <br><br>
+
+        <input type="checkbox" name="polozio" id="polozio" value="polozio">
+        <label for="polozio">Polozio/la</label><br><br>
+
+        <input type="button" value="Posalji" id="dugme">
+    </div>
+</div>
 </body>
 </html>
